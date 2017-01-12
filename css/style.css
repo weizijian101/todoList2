@@ -1,0 +1,42 @@
+#main{
+	width:100%;
+	border:none;
+	text-align: center;
+	height:auto;
+}
+#mainFooter,.todoItem{
+	margin:10px auto;
+	border:1px solid #ddd;
+	width:80%;
+	height:auto;
+}
+#mainFooter:after,.todoItem:after{
+	clear:both;
+	content: "";
+	display: block;
+}
+#mainFooter div{
+	float:left;
+	margin-left: 10px;
+}
+#mainFooter #dltAll{
+	float:right;
+	margin-right: 10px;
+}
+.todoItem div{
+	float:left;
+	border:none;
+	margin:5px 10px;
+}
+.todoItem .delBtn{
+	float:right;
+	opacity: 0；
+}
+.todoItem .delBtn input{
+	display:inline-block;
+	background-color: #97c76e;
+	border-radius:3px;
+}
+.todoItem .delBtn input:hover{
+	opacity: 1
+}
