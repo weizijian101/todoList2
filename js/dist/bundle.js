@@ -21622,7 +21622,7 @@
 
 
 	// module
-	exports.push([module.id, "#main{\n\twidth:100%;\n\tborder:none;\n\ttext-align: center;\n\theight:auto;\n}\n#mainFooter,.todoItem{\n\tmargin:10px auto;\n\tborder:1px solid #ddd;\n\twidth:80%;\n\theight:auto;\n}\n#mainFooter:after,.todoItem:after{\n\tclear:both;\n\tcontent: \"\";\n\tdisplay: block;\n}\n#mainFooter div{\n\tfloat:left;\n\tmargin-left: 10px;\n}\n#mainFooter #dltAll{\n\tfloat:right;\n\tmargin-right: 10px;\n}\n.todoItem div{\n\tfloat:left;\n\tborder:none;\n\tmargin:5px 10px;\n}\n.todoItem .delBtn{\n\tfloat:right;\n\topacity: 0；\n}\n.todoItem .delBtn input{\n\tdisplay:inline-block;\n\tbackground-color: #97c76e;\n\tborder-radius:3px;\n}\n.todoItem .delBtn input:hover{\n\topacity: 1\n}", ""]);
+	exports.push([module.id, "#main{\n\twidth:100%;\n\tborder:none;\n\ttext-align: center;\n\theight:auto;\n}\n#mainFooter,.todoItem{\n\tmargin:10px auto;\n\tborder:1px solid #ddd;\n\twidth:80%;\n\theight:auto;\n}\n#mainFooter:after,.todoItem:after{\n\tclear:both;\n\tcontent: \"\";\n\tdisplay: block;\n}\n#mainFooter div{\n\tfloat:left;\n\tmargin-left: 10px;\n}\n#mainFooter #dltAll{\n\tfloat:right;\n\tmargin-right: 10px;\n}\n.todoItem{\n\tmargin:0px auto;\n}\n.todoItem div{\n\tfloat:left;\n\tborder:none;\n\tmargin:0px 10px;\n}\n.todoItem .delBtn{\n\tfloat:right;\n\topacity: 0；\n}\n.todoItem .delBtn input{\n\tdisplay:inline-block;\n\tbackground-color: #97c76e;\n\tborder-radius:3px;\n}\n.todoItem .delBtn input:hover{\n\topacity: 1\n}\nul li{\n\tmargin:0;\n\tpadding:0;\nlist-style:none;\n}", ""]);
 
 	// exports
 

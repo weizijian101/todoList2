@@ -23,10 +23,13 @@
 	float:right;
 	margin-right: 10px;
 }
+.todoItem{
+	margin:0px auto;
+}
 .todoItem div{
 	float:left;
 	border:none;
-	margin:5px 10px;
+	margin:0px 10px;
 }
 .todoItem .delBtn{
 	float:right;
@@ -39,4 +42,9 @@
 }
 .todoItem .delBtn input:hover{
 	opacity: 1
+}
+ul li{
+	margin:0;
+	padding:0;
+list-style:none;
 }
