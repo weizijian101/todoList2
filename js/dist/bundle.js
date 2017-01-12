@@ -21503,12 +21503,17 @@
 			})
 		},
 		render:function(){
-
+			var todos = this.state.todos;
+			var todosDom = todos.map(function(todo,index){
+				return React.createElement(TodoItem, {cnt: todo})
+			})
 			return(
 					React.createElement("div", {id: "main"}, 
 						React.createElement("div", {id: "mainHeader"}, "This is todo list"), 
 						React.createElement(TodoHeader, {data: this.handleAddTodo}), 
-						React.createElement(TodoItem, {cnt: this.state.todos[2]}), 
+						React.createElement("ul", null, 
+							todosDom
+						), 
 						React.createElement("div", {id: "spaceHd"}, "恭喜没有任务"), 
 						React.createElement("div", {id: "mainFooter"}, 
 							React.createElement("div", null, React.createElement("input", {type: "checkbox"}), "全选"), 

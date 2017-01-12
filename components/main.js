@@ -18,12 +18,17 @@ var Main = React.createClass({
 		})
 	},
 	render:function(){
-
+		var todos = this.state.todos;
+		var todosDom = todos.map(function(todo,index){
+			return <TodoItem cnt={todo} />
+		})
 		return(
 				<div id="main">
 					<div id="mainHeader">This is todo list</div>
 					<TodoHeader data={this.handleAddTodo} />
-					<TodoItem cnt={this.state.todos[2]} />
+					<ul>
+						{todosDom}
+					</ul>
 					<div id="spaceHd" >恭喜没有任务</div>
 					<div id="mainFooter">
 						<div><input type="checkbox" />全选</div>
